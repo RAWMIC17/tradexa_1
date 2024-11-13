@@ -1,0 +1,32 @@
+name: tradexa_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  cached_network_image: ^3.4.1
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  velocity_x: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+      - asset: lib/fonts/Montserrat-Light.ttf
+      - asset: lib/fonts/Montserrat-SemiBold.ttf
