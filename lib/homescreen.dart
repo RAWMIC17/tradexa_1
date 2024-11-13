@@ -139,7 +139,7 @@ void _filterMovies() {
                         ),
                       ),
                       Positioned(
-                        left: MediaQuery.of(context).size.width / 2 - 35,
+                        left: MediaQuery.of(context).size.width / 2 -25,
                         top: 95,
                         child: Container(
                           margin: EdgeInsets.only(left: 5),
@@ -191,9 +191,9 @@ void _filterMovies() {
                           ),
                         ),
                       ),
-                      Positioned(
-                        left: 22,
-                        child: Container(height: 215,
+                      Positioned(top: 15,
+                        left: 20,
+                        child: Container(height: 200,
                           child: ClipRRect(
                             borderRadius: BorderRadius.all(Radius.circular(12)),
                             child: Image.network(
